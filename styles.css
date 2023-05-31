@@ -14,17 +14,8 @@ header a{
     /* cursor: inherit;   */
 }
 
-footer h1{
-  color: #4fadec;
 
-}
-footer a{
-  color: inherit;
-  text-decoration: inherit;
-  /* cursor: inherit;   */
-}
 
-/* Basic styles for the navbar */
 nav {
     /* margin: 0px; */
     background-color: #f1f1f1;
@@ -77,18 +68,7 @@ nav {
   .navbar-brand a h2 {
     display: inline;
   }
-  
-  .footer-brand a {
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  .footer-brand a h1 {
-    display: inline;
-  }
-  .footer-brand a h2 {
-    display: inline;
-  }
+
 
   .search-bar {
     margin-left: 10px;
@@ -140,7 +120,6 @@ nav {
     padding: 5px 10px;
     border: none;
     border-radius: 7px;
-    /* background-color: #555; */
     color: #fff;
     margin-left: 10px;
   }
@@ -196,14 +175,9 @@ nav {
     padding: 10px;
   }
 
-  /* .main-part { 
-  }
-
-  body {
-  } */
 
 
-  /* --- Responsive main-part & add-box to teh size of screen --- */
+  /* --- Responsive main-part & add-box to the size of screen --- */
 
 
   .main-part {
@@ -234,4 +208,33 @@ nav {
     .ad-box {
       flex: 0 0 calc(25% - 30px);
     }
+  }
+
+
+  /* --- Footer lists and paragraph Styles --- */
+
+
+    
+  .footer-brand a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .footer-brand a h1 {
+    display: inline;
+  }
+  
+  .footer-brand a h2 {
+    display: inline;
+  }
+
+  footer h1{
+    color: #4fadec;
+  }
+
+  footer a{
+    color: inherit;
+    text-decoration: inherit;
+    /* cursor: inherit;   */
   }
