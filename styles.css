@@ -186,13 +186,13 @@ nav {
   /* ------  Main-part   &   ad-box  Styles ------ */
 
   .ad-box {
-    background-color: #e3e3e3;
+    background-color: #f1f1f1;
     height: 200px;
     width: 370px;
     padding: 10px 10px 10px 10px;
     /* margin: 15px auto; */
  
-    border: 3px solid #555;
+    border: 2px solid #8b8a8a;
     padding: 10px;
   }
 
