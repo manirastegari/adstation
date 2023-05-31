@@ -1,7 +1,11 @@
 /* * {background-color: lightslategray;} */
+body {
+  background-color: #9dd2f3;
+  background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
+}
 
 header h1{
-    color: #3498db;
+    color: #4fadec;
 
 }
 header a{
