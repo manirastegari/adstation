@@ -6,13 +6,24 @@ body {
 
 header h1{
     color: #4fadec;
-
 }
+
 header a{
     color: inherit;
     text-decoration: inherit;
     /* cursor: inherit;   */
 }
+
+footer h1{
+  color: #4fadec;
+
+}
+footer a{
+  color: inherit;
+  text-decoration: inherit;
+  /* cursor: inherit;   */
+}
+
 /* Basic styles for the navbar */
 nav {
     /* margin: 0px; */
@@ -59,9 +70,26 @@ nav {
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
-
+  }
+  .navbar-brand a h1 {
+    display: inline;
+  }
+  .navbar-brand a h2 {
+    display: inline;
   }
   
+  .footer-brand a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .footer-brand a h1 {
+    display: inline;
+  }
+  .footer-brand a h2 {
+    display: inline;
+  }
+
   .search-bar {
     margin-left: 10px;
   }
@@ -152,4 +180,58 @@ nav {
   
   .profile-button:hover .dropdown-content {
     display: block;
+  }
+
+
+  /* ------  Main-part   &   ad-box  Styles ------ */
+
+  .ad-box {
+    background-color: #e3e3e3;
+    height: 200px;
+    width: 370px;
+    padding: 10px 10px 10px 10px;
+    /* margin: 15px auto; */
+ 
+    border: 3px solid #555;
+    padding: 10px;
+  }
+
+  /* .main-part { 
+  }
+
+  body {
+  } */
+
+
+  /* --- Responsive main-part & add-box to teh size of screen --- */
+
+
+  .main-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .ad-box {
+    flex: 0 0 100%;
+    max-width: 370px;
+    margin: 15px;
+  }
+  
+  @media (min-width: 600px) {
+    .ad-box {
+      flex: 0 0 calc(50% - 30px);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .ad-box {
+      flex: 0 0 calc(33.33% - 30px);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .ad-box {
+      flex: 0 0 calc(25% - 30px);
+    }
   }
