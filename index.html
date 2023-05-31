@@ -30,12 +30,22 @@
             <div class="post-ad-button">
               <button class="btn" type="button">Post Ad</button>
             </div>
-            <div>
+            <!-- <div>
                 <button class="profile-button" type="button"><i class="fas fa-user"></i></button>
-            </div>
+            </div> -->
+            <div>
+                <button class="profile-button" type="button" onclick="toggleDropdown()"><i class="fas fa-user"></i></button>
+                <div class="dropdown-content" id="dropdown-content">
+                  <a href="#">Login</a>
+                  <hr>
+                  <a href="#">Sign Up</a>
+                </div>
+              </div>
+              
           </nav>
     </header>
     <main></main>
     <footer></footer>
+    <script src="myScript.js"></script>
 </body>
 </html>
