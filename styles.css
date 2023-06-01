@@ -74,9 +74,11 @@ nav {
     text-decoration: none;
     font-size: 20px;
   }
+
   .navbar-brand a h1 {
     display: inline;
   }
+
   .navbar-brand a h2 {
     display: inline;
   }
@@ -194,11 +196,26 @@ nav {
     padding-top: 76px;
   }
 
+  .main-header1 {
+    font-weight: normal;
+  }
+
   .main-header {
-    text-decoration: underline;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* display: inline; */
     text-align: center;
     background-color: #cbe1ee;
     border: 2px solid #8b8a8a;
+  }
+
+  #main-header-bold {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  #main-header, #main-header-bold {
+    display: inline;
   }
 
   /* --- Responsive main-part & add-box to the size of screen --- */
