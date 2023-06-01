@@ -182,13 +182,24 @@ nav {
 
   .ad-box {
     background-color: #f1f1f1;
-    height: 200px;
-    width: 370px;
+    height: 330px;
+    width: 340px;
     padding: 10px 10px 10px 10px;
     /* margin: 15px auto; */
  
     border: 2px solid #8b8a8a;
     padding: 10px;
+  }
+  .ad-box {
+    flex: 0 0 100%;
+    max-width: 340px;
+    margin: 15px;
+    margin: 10px;
+  }
+
+  .ad-box h2, .ad-box p {
+    margin-top: 2px;
+    margin-bottom: 5px;
   }
 
   main {
@@ -227,12 +238,13 @@ nav {
     justify-content: center;
   }
   
-  .ad-box {
-    flex: 0 0 100%;
-    max-width: 370px;
-    margin: 15px;
-  }
+
   
+  img {
+    /* text-align: center; */
+    /* width: -webkit-fill-available; */
+  }
+
   @media (min-width: 600px) {
     .ad-box {
       flex: 0 0 calc(50% - 30px);
@@ -280,7 +292,7 @@ nav {
     /* cursor: inherit;   */
   }
   footer nav {
-    height: 250px;
+    height: 220px;
   }
 
   .post-ad-button-h button{
