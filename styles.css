@@ -1,6 +1,6 @@
 /* * {background-color: lightslategray;} */
 body {
-  background-color: #9dd2f3;
+  background-color: #cbe1ee;
   background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
 }
 
@@ -17,11 +17,22 @@ header a{
 
 
 nav {
-    /* margin: 0px; */
+    margin: 0px;
     background-color: #f1f1f1;
     padding: 10px;
     display: flex;
-    /* align-items: center; */
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  header {
+    position: fixed;
+    width: -webkit-fill-available;;
+  }
+
+  header nav {
+    margin-right: 8px;
+    align-items: center;
   }
   
 .profile-button {
@@ -46,6 +57,7 @@ nav {
     font-family: Arial;
     color: #ffffff;
     font-size: 25px;
+    font-weight: bold;
     background: #3498db;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
@@ -76,18 +88,18 @@ nav {
   
   .search-bar input {
     padding: 5px;
-    border: none;
-    border-radius: 7px;
+    border: 1px solid #555;
+    border-radius: 7px 0 0 7px;
     font-size: 20px;
-
+    margin-right: 0;
   }
   
   .search-bar button {
     padding: 5px 10px;
-    border: none;
-    border-radius: 7px;
+    border: 1px solid #555;
+    border-radius: 0 7px 7px 0;
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 0;
     background-color: #555;
     color: #fff;
   }
@@ -175,7 +187,17 @@ nav {
     padding: 10px;
   }
 
+  main {
+    /* padding-top: 134px; */
+    padding-top: 76px;
+  }
 
+  .main-header {
+    text-decoration: underline;
+    text-align: center;
+    background-color: #cbe1ee;
+    border: 2px solid #8b8a8a;
+  }
 
   /* --- Responsive main-part & add-box to the size of screen --- */
 
@@ -277,9 +299,18 @@ footer .copyrights {
   } */
   
   footer nav {
-    padding-top: 20px;
+    padding-top: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
   }
 
   ul {
+    margin-left: 100px;
     margin-top: 0;
+    list-style-type: none;
   }
+
+  li {
+    padding: 5px;
+  }
+  
