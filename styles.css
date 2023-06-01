@@ -238,11 +238,12 @@ nav {
     justify-content: center;
   }
   
+      /* --- removing .main-part a tag color and underline --- */
 
   
-  img {
-    /* text-align: center; */
-    /* width: -webkit-fill-available; */
+  .main-part a {
+    text-decoration: none;
+    color: inherit;
   }
 
   @media (min-width: 600px) {
