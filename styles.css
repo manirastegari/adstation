@@ -13,6 +13,7 @@ header a{
 }
 
 nav {
+    
     margin: 0px;
     background-color: #f1f1f1;
     padding: 10px;
@@ -22,12 +23,15 @@ nav {
   }
 
   header {
-    position: fixed;
+    left: 8px;
+    right: 8px;
+    /* filter: blur(5px); */
+    box-shadow: 0px 0px 15px 5px grey;    position: fixed;
     width: -webkit-fill-available;;
   }
 
   header nav {
-    margin-right: 8px;
+    /* margin-right: 8px; */
     align-items: center;
   }
   
@@ -50,8 +54,7 @@ nav {
     -webkit-border-radius: 7;
     -moz-border-radius: 7;
     border-radius: 7px;
-    font-family: Arial;
-    color: #ffffff;
+    font-family: 'Font Awesome 5 Free';    color: #ffffff;
     font-size: 25px;
     font-weight: bold;
     background: #3498db;
@@ -84,6 +87,7 @@ nav {
   }
   
   .search-bar input {
+    font-family: auto;
     padding: 5px;
     border: 1px solid #555;
     border-radius: 7px 0 0 7px;
@@ -94,6 +98,7 @@ nav {
   }
   
   .search-bar button {
+    font-family: 'Font Awesome 5 Free';
     padding: 5px 10px;
     border: 1px solid #555;
     border-radius: 0 7px 7px 0;
@@ -315,6 +320,7 @@ nav {
   }
 
   footer nav {
+    box-shadow: 0px 0px 15px 5px grey;
     height: 220px;
   }
 
