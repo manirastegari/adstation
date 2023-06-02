@@ -199,6 +199,10 @@ nav {
     padding-top: 76px;
   }
 
+  .about-us-content {
+    padding: 75px 120px 120px 120px;
+  }
+
   .main-header1 {
     font-weight: normal;
   }
@@ -367,3 +371,75 @@ footer .copyrights {
   li {
     padding: 5px;
   }
+
+
+  /* ----------- contact us form styles -------- */
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-button[type="submit"]:hover {
+  background-color: #3cb0fd;
+}
+
+@media (max-width: 767px) {
+  /* Adjust styles for smaller devices */
+  .contact-form {
+      padding: 10px;
+  }
+
+  .form-input,
+  .form-textarea {
+      padding: 8px;
+  }
+
+  .form-button[type="submit"] {
+      padding: 8px 16px;
+  }
+}
+.contact-us-div h2 {
+  text-align: center;
+}
+
+.contact-us-div2 {
+  box-shadow: 0px 0px 15px 5px grey;    position: fixed;
+  background-color: #f1f1f1;
+  padding-left: 45px;
+  padding-right: 65px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.contact-us-div form {
+  position: inherit;
+
+}
