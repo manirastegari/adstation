@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Ad Station</title>
 </head>
+
+
+
 <body>
     <header>
         <nav>
@@ -26,11 +29,35 @@
 
 
 
-
-
     <main>
-        <p>Main Content - Career</p>
+      <div class="contact-us-div">
+          <form class="contact-form contact-us-div2" id="contact-form" action="#" method="POST">
+              <h2>Register</h2>
+
+              <div class="form-group">
+                <label for="username">Username:</label>
+                <input class="form-input" type="text" id="username" name="username" placeholder="Enter the username" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="Enter the subject" required>
+              </div>
+              <div class="form-group">
+
+                <label for="password">Password:</label>
+                <input class="form-input" type="password" id="password" name="password" placeholder="Enter the password" required>
+              </div>
+              <div class="form-group">
+                  <button class="form-button" type="submit">Submit</button>
+              </div>
+          </form>
+      </div>
     </main>
+    </div>
     
 
 
@@ -81,5 +108,6 @@
         </nav>
     </footer>
     
+    <script src="myScript.js"></script>
 </body>
 </html>
