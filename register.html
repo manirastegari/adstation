@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+    <script src="myScript.js"></script>
     <title>Ad Station</title>
 </head>
 
@@ -52,7 +55,7 @@
                 <input class="form-input" type="password" id="password" name="password" placeholder="Enter the password" required>
               </div>
               <div class="form-group">
-                  <button class="form-button" type="submit">Submit</button>
+                  <button class="form-button" type="submit" onclick="submitForm(event)">Submit</button>
               </div>
           </form>
       </div>
@@ -107,6 +110,54 @@
         </nav>
     </footer>
     
+
+
+
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCDblnBm5avSCUr2ZuQkW2GVH_ko2rpvYw",
+        authDomain: "adstation2-5d91a.firebaseapp.com",
+        projectId: "adstation2-5d91a",
+        storageBucket: "adstation2-5d91a.appspot.com",
+        messagingSenderId: "290914179590",
+        appId: "1:290914179590:web:9f007271c1ad9ab8da0187",
+        measurementId: "G-RD12HFYCSD"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
+
+
+
+
     <script src="myScript.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+<!-- Fire Base Rule 2 
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+} -->
