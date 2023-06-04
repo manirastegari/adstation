@@ -432,14 +432,35 @@ label {
 }
 
 .contact-us-div2 {
-  box-shadow: 0px 0px 15px 5px grey;    position: fixed;
+  box-shadow: 0px 0px 15px 5px grey;   
+  position: inherit;
   background-color: #f1f1f1;
   padding-left: 45px;
   padding-right: 65px;
   margin-bottom: 50px;
   margin-top: 50px;
 }
+
+.maps {
+  box-shadow: 0px 0px 15px 5px grey;   
+  position: inherit;
+  background-color: #f1f1f1;
+  padding-left: 45px;
+  padding-right: 65px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.contact-us-div3 {
+  box-shadow: 0px 0px 15px 5px grey;   
+  /* position: fixed; */
+  background-color: #f1f1f1;
+  padding: 45px 50px 40px;
+  padding-right: 65px;
+  margin: 35px auto 50px auto;
+  width: max-content;
+}
+
 .contact-us-div form {
   position: inherit;
-
 }
