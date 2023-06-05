@@ -432,23 +432,16 @@ label {
 }
 
 .contact-us-div2 {
-  box-shadow: 0px 0px 15px 5px grey;   
-  position: inherit;
+  box-shadow: 0px 0px 15px 5px grey;    position: fixed;
   background-color: #f1f1f1;
   padding-left: 45px;
   padding-right: 65px;
   margin-bottom: 50px;
   margin-top: 50px;
 }
-
-.maps {
-  box-shadow: 0px 0px 15px 5px grey;   
+.contact-us-div form {
   position: inherit;
-  background-color: #f1f1f1;
-  padding-left: 45px;
-  padding-right: 65px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+
 }
 
 .contact-us-div3 {
